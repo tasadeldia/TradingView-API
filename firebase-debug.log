@@ -1,0 +1,43 @@
+[debug] [2025-07-07T20:01:02.061Z] ----------------------------------------------------------------------
+[debug] [2025-07-07T20:01:02.068Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-07-07T20:01:02.069Z] CLI Version:   14.7.0
+[debug] [2025-07-07T20:01:02.070Z] Platform:      linux
+[debug] [2025-07-07T20:01:02.070Z] Node Version:  v20.19.0
+[debug] [2025-07-07T20:01:02.077Z] Time:          Mon Jul 07 2025 20:01:02 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-07T20:01:02.077Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-07T20:01:02.083Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-07-07T20:01:02.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:01:02.102Z] ----------------------------------------------------------------------
+[debug] [2025-07-07T20:01:02.106Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js login --no-localhost
+[debug] [2025-07-07T20:01:02.107Z] CLI Version:   14.7.0
+[debug] [2025-07-07T20:01:02.108Z] Platform:      linux
+[debug] [2025-07-07T20:01:02.108Z] Node Version:  v20.19.0
+[debug] [2025-07-07T20:01:02.108Z] Time:          Mon Jul 07 2025 20:01:02 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-07T20:01:02.108Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-07T20:01:02.113Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase CLI integrates with Gemini in Firebase API to provide assistant features. Learn more about using Gemini in Firebase and how we train our models: https://firebase.google.com/docs/gemini-in-firebase/set-up-gemini#required-permissions 
+[debug] [2025-07-07T20:01:02.331Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-07-07T20:01:02.332Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-07-07T20:01:02.369Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-07-07T20:01:02.370Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-07-07T20:01:14.476Z] Running auto auth
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/TradingView-API
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 

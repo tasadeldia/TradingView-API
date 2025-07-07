@@ -22,8 +22,14 @@ chart.onSymbolLoaded(() => { // When the symbol is successfully loaded
 });
 
 chart.onUpdate(() => { // When price changes
-  if (!chart.periods[0]) return;
-  console.log(`[${chart.infos.description}]: ${chart.periods[0].close} ${chart.infos.currency_id}`);
+  if (!chart.periods.length) return;
+  console.log(`\n[${chart.infos.description}] - Update received (${chart.periods.length} periods):`);
+  chart.periods.forEach(period => {
+    console.log('  Period Data:');
+    for (const key in period) {
+      console.log(`    ${key}: ${period[key]}`);
+    }
+  });
   // Do something...
 });
 

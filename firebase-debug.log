@@ -1,0 +1,135 @@
+[debug] [2025-07-07T20:20:11.835Z] ----------------------------------------------------------------------
+[debug] [2025-07-07T20:20:11.838Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy --only hosting
+[debug] [2025-07-07T20:20:11.839Z] CLI Version:   14.7.0
+[debug] [2025-07-07T20:20:11.839Z] Platform:      linux
+[debug] [2025-07-07T20:20:11.839Z] Node Version:  v20.19.0
+[debug] [2025-07-07T20:20:11.839Z] Time:          Mon Jul 07 2025 20:20:11 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-07T20:20:11.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-07T20:20:12.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:12.355Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:12.355Z] [iam] checking project holaholaa for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-07-07T20:20:12.357Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:12.357Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:12.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:12.357Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:12.359Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions [none]
+[debug] [2025-07-07T20:20:12.359Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions x-goog-quota-user=projects/holaholaa
+[debug] [2025-07-07T20:20:12.360Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-07T20:20:12.505Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions 200
+[debug] [2025-07-07T20:20:12.505Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-07T20:20:12.507Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:12.507Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:12.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:12.508Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:12.508Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa [none]
+[debug] [2025-07-07T20:20:12.863Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa 200
+[debug] [2025-07-07T20:20:12.864Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa {"projectId":"holaholaa","projectNumber":"527462632192","displayName":"aallo","name":"projects/holaholaa","resources":{"hostingSite":"holaholaa"},"state":"ACTIVE","etag":"1_bb26280a-4549-4366-b6df-80bd51231459"}
+[debug] [2025-07-07T20:20:15.280Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:15.281Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:15.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:15.281Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:15.282Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites pageToken=&pageSize=10
+[debug] [2025-07-07T20:20:15.624Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites 200
+[debug] [2025-07-07T20:20:15.624Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites {"sites":[{"name":"projects/holaholaa/sites/holaholaa","defaultUrl":"https://holaholaa.web.app","appId":"1:527462632192:web:344f3bd36ba4d96ed481e5","type":"DEFAULT_SITE"}]}
+[debug] [2025-07-07T20:20:15.625Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:15.625Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:15.625Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:15.626Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:15.626Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config [none]
+[debug] [2025-07-07T20:20:15.896Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config 200
+[debug] [2025-07-07T20:20:15.896Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config {"projectId":"holaholaa","appId":"1:527462632192:web:344f3bd36ba4d96ed481e5","storageBucket":"holaholaa.firebasestorage.app","apiKey":"AIzaSyBlPj0PELMc-KONXhQYbGww67XyGmELUPA","authDomain":"holaholaa.firebaseapp.com","messagingSenderId":"527462632192"}
+[debug] [2025-07-07T20:20:25.238Z] ----------------------------------------------------------------------
+[debug] [2025-07-07T20:20:25.243Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js hosting:channel:deploy enter
+[debug] [2025-07-07T20:20:25.244Z] CLI Version:   14.7.0
+[debug] [2025-07-07T20:20:25.244Z] Platform:      linux
+[debug] [2025-07-07T20:20:25.245Z] Node Version:  v20.19.0
+[debug] [2025-07-07T20:20:25.245Z] Time:          Mon Jul 07 2025 20:20:25 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-07T20:20:25.245Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-07T20:20:26.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:26.039Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:26.040Z] [iam] checking project holaholaa for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-07-07T20:20:26.042Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.043Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.044Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:26.044Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:26.047Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions [none]
+[debug] [2025-07-07T20:20:26.047Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions x-goog-quota-user=projects/holaholaa
+[debug] [2025-07-07T20:20:26.047Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-07T20:20:26.305Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions 200
+[debug] [2025-07-07T20:20:26.307Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/holaholaa:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-07-07T20:20:26.309Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.309Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.309Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:26.313Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:26.314Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa [none]
+[debug] [2025-07-07T20:20:26.572Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa 200
+[debug] [2025-07-07T20:20:26.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/holaholaa {"projectId":"holaholaa","projectNumber":"527462632192","displayName":"aallo","name":"projects/holaholaa","resources":{"hostingSite":"holaholaa"},"state":"ACTIVE","etag":"1_bb26280a-4549-4366-b6df-80bd51231459"}
+[debug] [2025-07-07T20:20:26.577Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.581Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.581Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:26.581Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:26.581Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels/enter [none]
+[debug] [2025-07-07T20:20:26.812Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels/enter 404
+[debug] [2025-07-07T20:20:26.817Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels/enter {"error":{"code":404,"message":"Requested entity was not found.","status":"NOT_FOUND"}}
+[debug] [2025-07-07T20:20:26.822Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.824Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:26.825Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:26.825Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:26.826Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels?channelId=enter [none]
+[debug] [2025-07-07T20:20:26.826Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels?channelId=enter {"ttl":"604800s"}
+[debug] [2025-07-07T20:20:26.996Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels?channelId=enter 200
+[debug] [2025-07-07T20:20:26.997Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites/holaholaa/channels?channelId=enter {"name":"projects/holaholaa/sites/holaholaa/channels/enter","url":"https://holaholaa--enter-pc53l3vr.web.app","createTime":"2025-07-07T20:20:26.943090907Z","updateTime":"2025-07-07T20:20:26.943090907Z","retainedReleaseCount":10,"expireTime":"2025-07-14T20:20:26.943090907Z"}
+[debug] [2025-07-07T20:20:26.997Z] [hosting] created new channnel for site holaholaa {"name":"projects/holaholaa/sites/holaholaa/channels/enter","url":"https://holaholaa--enter-pc53l3vr.web.app","createTime":"2025-07-07T20:20:26.943090907Z","updateTime":"2025-07-07T20:20:26.943090907Z","retainedReleaseCount":10,"expireTime":"2025-07-14T20:20:26.943090907Z"}
+[info] ✔  hosting:channel: Channel enter has been created on site holaholaa. 
+[debug] [2025-07-07T20:20:33.824Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:33.824Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:33.831Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:33.831Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:33.832Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites pageToken=&pageSize=10
+[debug] [2025-07-07T20:20:33.968Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites 200
+[debug] [2025-07-07T20:20:33.971Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/holaholaa/sites {"sites":[{"name":"projects/holaholaa/sites/holaholaa","defaultUrl":"https://holaholaa.web.app","appId":"1:527462632192:web:344f3bd36ba4d96ed481e5","type":"DEFAULT_SITE"}]}
+[debug] [2025-07-07T20:20:33.972Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:33.972Z] No OAuth tokens found
+[debug] [2025-07-07T20:20:33.972Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-07T20:20:33.978Z] > authorizing via signed-in user (alejandro090212@gmail.com)
+[debug] [2025-07-07T20:20:33.978Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config [none]
+[debug] [2025-07-07T20:20:34.393Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config 200
+[debug] [2025-07-07T20:20:34.394Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:527462632192:web:344f3bd36ba4d96ed481e5/config {"projectId":"holaholaa","appId":"1:527462632192:web:344f3bd36ba4d96ed481e5","storageBucket":"holaholaa.firebasestorage.app","apiKey":"AIzaSyBlPj0PELMc-KONXhQYbGww67XyGmELUPA","authDomain":"holaholaa.firebaseapp.com","messagingSenderId":"527462632192"}
+[info] 
+   Thank you for trying our experimental support for Vite on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+   The integration is known to work with Vite version 3 - 6. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-07-07T20:20:51.579Z] RollupError: Could not resolve entry module "index.html".
+    at error (file:///home/user/TradingView-API/node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at ModuleLoader.loadEntryModule (file:///home/user/TradingView-API/node_modules/rollup/dist/es/shared/node-entry.js:24881:20)
+    at async Promise.all (index 0)
+[error] 
+[error] Error: An unexpected error has occurred.
+[info] 
+   Thank you for trying our experimental support for Vite on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+   The integration is known to work with Vite version 3 - 6. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-07-07T20:21:06.129Z] RollupError: Could not resolve entry module "index.html".
+    at error (file:///home/user/TradingView-API/node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at ModuleLoader.loadEntryModule (file:///home/user/TradingView-API/node_modules/rollup/dist/es/shared/node-entry.js:24881:20)
+    at async Promise.all (index 0)
+[error] 
+[error] Error: An unexpected error has occurred.
